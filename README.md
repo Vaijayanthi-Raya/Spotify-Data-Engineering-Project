@@ -68,3 +68,7 @@ Implemented this Architecture
 <img width="935" alt="Screenshot 2024-09-29 at 12 52 48 AM" src="https://github.com/user-attachments/assets/7f61aa43-2711-4991-8237-464368d45b40">
 
 
+
+
+**Dataset Used:**
+https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023/data
