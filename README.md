@@ -16,11 +16,13 @@ Implemented this Architecture
 **Steps to Execute this Project:**
 
 **S3 Bucket:**
+
 1. Create the S3 Bucket
 2. Create the Source Folder Where the Input Data is uploaded
 3. Create the Target Folder-> To store the transformed data from Glue
 
 **AWS Glue:**
+
 4. Launch the AWS GLue Console and Open the Script Editor and upload the Spotify ETL.py
 5. Include the Source and Target Path of S3 in the Script file
 6. Name the Job Name
@@ -29,17 +31,20 @@ Implemented this Architecture
 9. Switch to Jobs run Monitoring tab under AWS Glue and Monitor the Job running Status.
 
 **Crawlers:**
+
 10. Then Goto AWS Glue Data Catalog -> Crawlers
 11. Create a Database
 12. While Creating a Crawler, Add the permissions to the IAM role like "AmazonS3ReadOnlyAccess", "AWSGlueServiceRole"
 13. Make sure Tables are created, after the run is successfull
 
 **AWS Athena:**
+
 14. Launch AWS Athena
 15. Open the Athena Query Editor and Configure the Database and tables.
 16. Create a S3 bucket to store the Athena output results and after querying check whether the results are saved in S3 bucket
 
 **QuickSight:**
+
 17. Launch QuickSight
 18. Link the S3 Athena stored output Results and Visualize the Data 
 
